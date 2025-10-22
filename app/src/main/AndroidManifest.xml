@@ -12,6 +12,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MoroccanCaftans">
         <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReservationFormActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CaftanDetailScreen"
+            android:exported="false" />
+        <activity
+            android:name=".CaftanListScreen"
+            android:exported="false" />
+        <activity
+            android:name=".home"
+            android:exported="false" />
+        <activity
             android:name=".signup"
             android:exported="false" />
         <activity

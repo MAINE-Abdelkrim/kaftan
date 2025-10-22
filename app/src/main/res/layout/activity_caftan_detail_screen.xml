@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F3E9"
+    tools:context=".CaftanDetailScreen">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="24dp">
+
+            <ImageView
+                android:id="@+id/caftan_detail_image"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/caftan_detail_placeholder"
+                android:contentDescription="Grande image du caftan" />
+
+            <TextView
+                android:id="@+id/caftan_detail_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:text="Caftan de Soie Brodé Or"
+                android:textColor="#333333"
+                android:textSize="32sp"
+                android:fontFamily="@font/moroccan_font"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/caftan_detail_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:text="200 DH / jour"
+                android:textColor="#C1A47B"
+                android:textSize="24sp"
+                android:fontFamily="@font/moroccan_font" />
+
+            <TextView
+                android:id="@+id/caftan_detail_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:lineSpacingExtra="4dp"
+                android:text="Magnifique caftan en soie naturelle, orné de broderies délicates faites à la main avec du fil d'or. Parfait pour les occasions spéciales et les mariages. Disponible en plusieurs tailles. Le tissu léger assure un confort optimal tout au long de la journée."
+                android:textColor="#555555"
+                android:textSize="16sp"
+                android:fontFamily="sans-serif-light" />
+
+            <Button
+                android:id="@+id/button_reserve_caftan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Réserver ce Caftan"
+                android:textColor="@android:color/white"
+                android:backgroundTint="#A08C5C" android:padding="16dp"
+                android:textSize="20sp"
+                android:fontFamily="@font/moroccan_font"
+                app:cornerRadius="20dp"
+                android:layout_marginTop="48dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
