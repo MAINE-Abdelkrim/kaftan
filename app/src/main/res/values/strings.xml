@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">MoroccanCaftans</string>
+    <string name="app_logo">Logo de l\'application</string>
+
+    <!-- Login -->
+    <string name="welcome_back">Bienvenue !</string>
+    <string name="login_subtitle">Connectez-vous pour continuer</string>
+    <string name="login">Connexion</string>
+    <string name="email">Adresse email</string>
+    <string name="password">Mot de passe</string>
+    <string name="remember_me">Se souvenir de moi</string>
+    <string name="forgot_password">Mot de passe oublié?</string>
+    <string name="no_account">Pas de compte?</string>
+
+    <!-- SignUp -->
+    <string name="create_account">Créer un compte</string>
+    <string name="signup_subtitle">Rejoignez-nous aujourd\'hui</string>
+    <string name="signup">Inscription</string>
+    <string name="full_name">Nom complet</string>
+    <string name="phone_number">Numéro de téléphone</string>
+    <string name="confirm_password">Confirmer le mot de passe</string>
+    <string name="password_hint">Au moins 8 caractères</string>
+    <string name="accept_terms_full">J\'accepte les <b>conditions d\'utilisation</b> et la <b>politique de confidentialité</b></string>
+    <string name="have_account">Vous avez déjà un compte?</string>
+
+    <!-- Common -->
+    <string name="or">OU</string>
+    <string name="continue_with_google">Continuer avec Google</string>
+    <string name="back">Retour</string>
+</resources>

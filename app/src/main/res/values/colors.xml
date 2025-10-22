@@ -1,0 +1,20 @@
+<resources>
+    <!-- Couleurs principales marocaines -->
+    <color name="primary_red">#C41E3A</color>
+    <color name="primary_green">#006233</color>
+    <color name="gold_accent">#D4AF37</color>
+
+    <!-- Backgrounds -->
+    <color name="background_primary">#FFFFFF</color>
+    <color name="background_secondary">#F8F9FA</color>
+    <color name="card_background">#FAFAFA</color>
+
+    <!-- Text -->
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#6C757D</color>
+
+    <!-- Other -->
+    <color name="divider">#E0E0E0</color>
+    <color name="success">#28A745</color>
+    <color name="error">#DC3545</color>
+</resources>
